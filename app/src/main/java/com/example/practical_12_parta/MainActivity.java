@@ -61,4 +61,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+//shut the fk
                 //resultText.setTextColor(Color.rgb(128, 128, 128));
