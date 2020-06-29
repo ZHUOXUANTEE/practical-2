@@ -41,14 +41,16 @@
     <TextView
         android:id="@+id/resultText"
         android:layout_width="match_parent"
-        android:layout_height="708dp"
+        android:layout_height="0dp"
         android:background="#F5FD02"
         android:gravity="center_horizontal|center_vertical"
         android:text="0"
         android:textColor="?attr/colorPrimary"
         android:textSize="200sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/countBtn"
-        tools:layout_editor_absoluteX="46dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msgBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
